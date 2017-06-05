@@ -1,0 +1,39 @@
+{{ partial "header.html" . }}
+      <div class="content">
+        <div class="photo-grid">
+          <div class="grid">
+            {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+            {{ range first 12 $paginator.Pages }}
+              {{ partial "summary.html" . }}
+            {{ end }}
+          </div>
+          {{ partial "pagination.html" . }}
+
+        </div>
+
+        <hr>
+
+        <div class="taxonomies">
+          <div class="taxonomy">
+            <h2>Categories</h2>
+            <ul>
+              {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+              <li><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+              {{ end }}
+            </ul>
+          </div>
+
+          <div class="taxonomy">
+            <h2>Tags</h2>
+            <ul>
+              {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+              <li><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+
+        <hr>
+        
+      </div>
+{{ partial "footer.html" . }}

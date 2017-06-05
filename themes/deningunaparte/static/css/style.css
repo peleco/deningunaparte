@@ -1,0 +1,323 @@
+/* ——————————————————————— Body */
+* {
+  box-sizing: border-box;
+}
+::selection {
+  background: #000;
+  color: #fff;
+}
+html, body{
+  height:100%;
+}
+html {
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased;
+  font-size: 100%;
+}
+
+body {
+  font-family: "apercu", sans-serif;
+  font-size: 1.125rem;
+  color: #000;
+  line-height: 1.75rem;
+  margin: 0;
+  background: #fff;
+  text-align: center;
+}
+
+a:link, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+}
+hr {
+  display: block;
+  margin: 3.75rem 2.380952380952381%;
+  padding: 0;
+  height: 2px;
+  border-style: none;
+  background: #000;
+}
+/* ——————————————————————— Estructura */
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 74em;
+  padding: 0 2.380952380952381%;
+}
+.photo-grid {
+  display: flex;
+  flex-direction: column;
+  margin: 4.6875rem 0 3.75rem;
+  width: 100%;
+  height: auto;
+  /*column-rule: 1px solid #DEDEFF;*/
+}
+.grid {
+  column-count: 3;
+  column-gap: 0;
+}
+.content h1 {
+  padding: 0 2.380952380952381%;
+  margin: 3.75rem 0;
+  font-size: 2.75rem;
+}
+/* ——————————————————————— Header */
+.header {
+  position: relative;
+  display: flex;
+  width: 100%;
+  /*align-items: center;*/
+  /*mix-blend-mode: multiply;*/
+}
+.logo-container {
+  position: relative;
+  display: block;
+  background: #FFDE00;
+  padding: 0;
+  margin: 0;
+  width: 6.25rem;
+  height: 6.25rem;
+}
+.logo {
+  position: relative;
+  width: 60px;
+  height: 53px;
+  display: block;
+  margin: 1.75rem 0 0 1rem;
+  padding: auto;
+}
+.logotype {
+  position: relative;
+  display: block;
+  width: auto;
+  margin-left: 0;
+  margin-top: .8rem;
+  transform: translateX(-.6em);
+  /*background: blue;*/
+}
+.header h1 {
+  font-size: 1em;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+}
+/* ——————————————————————— Summary */
+.summary-photo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.summary {
+  break-inside: avoid;
+  display: block;
+  position: relative;
+  padding: 7.142857142857143%;
+}
+.summary::before {
+  transition: opacity .40s cubic-bezier(0.340, 0.010, 0.010, 0.995),
+              transform .20s cubic-bezier(0.340, 0.010, 0.010, 0.995) .10s;
+  content: "";
+  display: block;
+  position: absolute;
+  background: #FFDE00;
+  mix-blend-mode: multiply;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: 0;
+  transform: scaleX(.5);
+  /*transform: scaleX(0);*/
+}
+.summary:hover {
+  cursor: pointer;
+}
+.summary:hover::before {
+  opacity: 1;
+  transform: scaleX(1);
+  /*transform: scaleX(100);*/
+}
+.summary-text {
+  transition: opacity .40s cubic-bezier(0.340, 0.010, 0.010, 0.995);
+  transition: transform .80s cubic-bezier(0.340, 0.010, 0.010, 0.995);
+  /*transition: transform .20s cubic-bezier(0.340, 0.010, 0.010, 0.995);*/
+  position: absolute;
+  display: block;
+  bottom: -.9rem;
+  right: 0;
+  opacity: 0;
+  transform: translateY(.2em);
+  /*transform: translateX(-2em);*/
+}
+.summary:hover .summary-text {
+  opacity: 1;
+  /*transform: translateX(0);*/
+  transform: translateY(0);
+}
+.summary h1 {
+  padding: 0;
+  font-size: 1em;
+  display: inline;
+  margin-right: 1em;
+}
+.summary time {
+  display: inline;
+  margin-right: 1em;
+}
+/* ——————————————————————— Taxonomy */
+.taxonomy {
+  padding: 0 2.380952380952381%;
+  margin-bottom: 3.75rem;
+}
+.taxonomy h2 {
+  font-size: 1em;
+  font-weight: normal;
+}
+.taxonomy ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.taxonomy li {
+  position: relative;
+  font-size: 1.5rem;
+  line-height: 3.25rem;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 1em;
+  /*background: blue;*/
+}
+.taxonomy li::before {
+  transition: transform .40s cubic-bezier(0.340, 0.010, 0.010, 0.995),
+              opacity .20s cubic-bezier(0.340, 0.010, 0.010, 0.995);
+  position: absolute;
+  padding: 0 .4rem;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: .625rem;
+  width: 100%;
+  background-color: #FFDE00;
+  mix-blend-mode: multiply;
+  opacity: 0;
+  transform: translateY(-.3em) scaleY(0) translateX(-.4rem);
+  transform-origin: bottom center;
+}
+.taxonomy li:hover::before {
+  opacity: 1;
+  transform: translateY(-.5em) scaleY(1) translateX(-.4rem);
+}
+/* ——————————————————————— Pagination */
+.pagination {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  height: 2.75rem;
+  width: 100%;
+  margin: 3.75rem 0;
+  padding: 0 2.380952380952381%;
+  /*background: grey;*/
+}
+.pagination-prev {
+  width: 2.75rem;
+  height: 2.75rem;
+  position: relative;
+  display: block;
+  border: solid 2px #000;
+  align-self: center;
+  transform: translateX(4px);
+}
+.pagination-next {
+  width: 2.75rem;
+  height: 2.75rem;
+  position: relative;
+  display: block;
+  border: solid 2px #000;
+  /*align-self: center;*/
+}
+.pagination-next::before, .pagination-prev::before {
+  transition: opacity .20s cubic-bezier(0.340, 0.010, 0.010, 0.995),
+              transform .10s cubic-bezier(0.340, 0.010, 0.010, 0.995);
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4rem;
+  height: 4rem;
+  background-color: #FFDE00;
+  mix-blend-mode: multiply;
+  transform-origin: 0 0;
+  transform: translate(-0.75rem, -0.75rem) scaleX(.5);
+  opacity: 0;
+}
+.pagination-next:hover::before, .pagination-prev:hover::before {
+  opacity: 1;
+  transform: translate(-0.75rem, -0.75rem) scaleX(1);
+}
+.pagination-data {
+  position: relative;
+  display: block;
+  border: solid 2px #000;
+  height: 2.75rem;
+  width: auto;
+  padding: .4rem 1rem 0;
+  align-self: center;
+  transform: translateX(2px);
+}
+.pagination a {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: block;
+  position: absolute;
+  transform: translate(0%,0%);
+  transform-origin: center center;
+  margin: 0;
+  padding: .5rem 0 0;
+}
+
+/* ——————————————————————— Single */
+.single {
+  /*padding: 0 2.380952380952381%;*/
+}
+.single-text {
+  margin: 3rem 2.380952380952381%;
+}
+.single time {
+  margin: 0;
+  padding: 0;
+  /*display: block;*/
+  /*background: blue;*/
+}
+.single h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.single-photo-container {
+  padding: 0 2.380952380952381%;
+  margin: 3.75rem 0 0;
+}
+.single-photo {
+  width: 100%;
+  height: auto;
+}
+.portrait {
+  max-width: 35.625rem;
+}
+.landscape {
+  max-width: 53.4375rem;
+}
+
+.footer {
+  padding: 0 2.380952380952381%;
+}

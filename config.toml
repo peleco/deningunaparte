@@ -1,0 +1,10 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "de ninguna parte"
+theme = "deningunaparte"
+preserveTaxonomyNames = true
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"

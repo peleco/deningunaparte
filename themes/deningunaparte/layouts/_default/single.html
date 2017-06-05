@@ -1,0 +1,36 @@
+{{ partial "header.html" . }}
+  <div class="single-photo-container">
+    <img class="single-photo {{ .Params.orientation }}" src="{{ .Params.photo }}" alt=".Params.photo">
+  </div>
+  <div class="content">
+			<article class="single">
+        <div class="single-text">
+          <time>{{ .Date.Format "02.01.2006" }}</time>
+          <h1>{{ .Title }}</h1>
+  				<div>
+  					{{ .Content }}
+  				</div>
+        </div>
+        <hr>
+
+        <div class="taxonomies">
+          <div class="taxonomy">
+            <h2>Categories</h2>
+            <ul>
+  						{{ range .Params.categories }}
+  						<li><a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+  						{{ end }}
+  					</ul>
+				</div>
+        <div class="taxonomy">
+          <h2>Tags</h2>
+					<ul>
+						{{ range .Params.tags }}
+						<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+						{{ end }}
+					</ul>
+				</div>
+			</article>
+      <hr>
+		</div>
+{{ partial "footer.html" . }}

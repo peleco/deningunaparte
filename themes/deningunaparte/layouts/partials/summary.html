@@ -1,0 +1,12 @@
+<a href="{{ .Permalink }}">
+<article class="summary">
+	<div class="summary-photo-container">
+			<img class="summary-photo" src="{{ .Params.photo }}" alt="{{ .Params.photo }}">
+	</div>
+	<div class="summary-text">
+			<h1>{{ .Title }}</h1>
+			<time>{{ .Date.Format "02.01.2006" }}</time>
+	</div>
+
+</article>
+</a>

@@ -1,0 +1,15 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/spf13/hugoThemes#themetoml for an example
+
+name = "de ninguna parte"
+license = "MIT"
+licenselink = "https://github.com/peleco/deningunaparte/blob/master/LICENSE.md"
+description = ""
+homepage = "https://github.com/peleco/deningunaparte"
+tags = ["photography","blog"]
+features = ["blog", ]
+min_version = "0.17"
+
+[author]
+  name = "Erik Zitzermann"
+  homepage = "https://github.com/peleco"
