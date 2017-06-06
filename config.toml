@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "de ninguna parte"
 theme = "deningunaparte"
-#preserveTaxonomyNames = true
+preserveTaxonomyNames = true
 
 [taxonomies]
 tag = "tags"
