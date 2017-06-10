@@ -139,7 +139,7 @@ hr {
 .summary:hover {
   cursor: pointer;
 }
-.summary:hover::before {
+.summary:hover::before, .summary:focus::before {
   opacity: 1;
   transform: scaleX(1);
   /*transform: scaleX(100);*/
@@ -323,4 +323,20 @@ hr {
 
 .footer {
   padding: 0 2.380952380952381%;
+}
+
+
+
+/* ——————————————————————— Breakpoints */
+@media all and (max-width: 50em) { /* -800px */
+  .grid {
+    column-count: 2;
+    column-gap: 0;
+  }
+}
+@media all and (max-width: 21.25em) { /* -340px */
+  .grid {
+    column-count: 1;
+    column-gap: 0;
+  }
 }
