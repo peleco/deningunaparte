@@ -1,6 +1,14 @@
 {{ partial "header.html" . }}
   <div class="single-photo-container">
-    <img class="single-photo {{ .Params.orientation }}" src="{{ .Params.photo }}" alt=".Params.photo">
+    <!-- <img class="single-photo {{ .Params.orientation }}" src="{{ .Params.photo }}" alt=".Params.photo"> -->
+
+    <img class="single-photo {{ .Params.orientation }}" src="/photos/{{ .Params.photo }}-M.jpg"
+   srcset="/photos/{{ .Params.photo }}-L.jpg 1710w,
+           /photos/{{ .Params.photo }}-M.jpg 855w,
+           /photos/{{ .Params.photo }}-S.jpg 360w"
+   sizes="100vw"
+   alt=".Params.photo" />
+
   </div>
   <div class="content">
 			<article class="single">

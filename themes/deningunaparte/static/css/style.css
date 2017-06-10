@@ -139,10 +139,9 @@ hr {
 .summary:hover {
   cursor: pointer;
 }
-.summary:hover::before, .summary:focus::before, .summary:active::before {
+.summary:hover::before, .summary:active::before {
   opacity: 1;
   transform: scaleX(1);
-  /*transform: scaleX(100);*/
 }
 .summary-text {
   transition: opacity .40s cubic-bezier(0.340, 0.010, 0.010, 0.995);
@@ -246,8 +245,8 @@ hr {
   /*align-self: center;*/
 }
 .pagination-next::before, .pagination-prev::before {
-  transition: opacity .20s cubic-bezier(0.340, 0.010, 0.010, 0.995),
-              transform .10s cubic-bezier(0.340, 0.010, 0.010, 0.995);
+  transition: opacity .30s cubic-bezier(0.340, 0.010, 0.010, 0.995),
+              transform .15s cubic-bezier(0.340, 0.010, 0.010, 0.995);
   content: "";
   display: block;
   position: absolute;
