@@ -2,6 +2,7 @@
 <article class="summary">
 	<div class="summary-photo-container">
 			<!-- <img class="summary-photo" src="{{ .Params.photo }}" alt="{{ .Params.photo }}"> -->
+			{{ if in .Params.orientation "landscape" }}
 			<img class="summary-photo" src="/photos/{{ .Params.photo }}-M.jpg"
      srcset="/photos/{{ .Params.photo }}-L.jpg 1710w,
              /photos/{{ .Params.photo }}-M.jpg 855w,
@@ -10,7 +11,17 @@
 		 				(max-width: 50em) 50vw,
 		 				33.3vw"
      alt=".Params.photo" />
-
+		 {{ end }}
+		 {{ if in .Params.orientation "portrait" }}
+		 <img class="summary-photo" src="/photos/{{ .Params.photo }}-M.jpg"
+		srcset="/photos/{{ .Params.photo }}-L.jpg 1140w,
+						/photos/{{ .Params.photo }}-M.jpg 570w,
+						/photos/{{ .Params.photo }}-S.jpg 360w"
+		sizes="(max-width: 21.25em) 100vw,
+					 (max-width: 50em) 50vw,
+					 33.3vw"
+		alt=".Params.photo" />
+		{{ end }}
 		 <!-- <img class="summary-photo" srcset="/photos/{{ .Params.photo }}-M.jpg 1x, /photos/{{ .Params.photo }}-L.jpg 2x"
    		src="/photos/{{ .Params.photo }}-M.jpg"
    		alt=".Params.photo" /> -->
