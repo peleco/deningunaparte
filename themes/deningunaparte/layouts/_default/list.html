@@ -4,22 +4,7 @@
         <div class="photo-grid">
           <div class="grid">
             {{ range .Data.Pages }}
-              <!-- {{ .Render "summary"}} -->
-              <!-- {{ partial "summary.html"}} -->
-
-              <a href="{{ .Permalink }}">
-              <article class="summary">
-              	<div class="summary-photo-container">
-              			<img class="summary-photo" src="{{ .Params.photo }}" alt="">
-              	</div>
-              	<div class="summary-text">
-              			<h1>{{ .Title }}</h1>
-              			<time>{{ .Date.Format "02.01.2006" }}</time>
-              	</div>
-
-              </article>
-              </a>
-
+              {{ .Render "summary"}}
             {{ end }}
           </div>
         </div>

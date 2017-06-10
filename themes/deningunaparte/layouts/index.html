@@ -4,7 +4,7 @@
           <div class="grid">
             {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
             {{ range first 12 $paginator.Pages }}
-              {{ partial "summary.html" . }}
+              {{ .Render "summary"}}
             {{ end }}
           </div>
           {{ partial "pagination.html" . }}
