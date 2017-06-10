@@ -139,7 +139,7 @@ hr {
 .summary:hover {
   cursor: pointer;
 }
-.summary:hover::before, .summary:focus::before {
+.summary:hover::before, .summary:focus::before, .summary:active::before {
   opacity: 1;
   transform: scaleX(1);
   /*transform: scaleX(100);*/
