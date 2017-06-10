@@ -1,6 +1,6 @@
 +++
 categories = ["x", "y"]
 tags = ["x", "y"]
-photo = "/photos/"
-orientation = "portrait/landscape"
+photo = "name-photo"
+orientation = "portrait or landscape"
 +++
