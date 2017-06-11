@@ -332,10 +332,19 @@ hr {
     column-count: 2;
     column-gap: 0;
   }
+  .header {
+    padding-left: 3.5714285714%;
+  }
 }
 @media all and (max-width: 21.25em) { /* -340px */
   .grid {
     column-count: 1;
     column-gap: 0;
+  }
+  .main {
+    padding: 0;
+  }
+  .header {
+    padding-left: 7.142857142857143%;
   }
 }
