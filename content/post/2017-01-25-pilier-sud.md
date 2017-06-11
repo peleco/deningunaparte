@@ -1,9 +1,9 @@
 +++
 categories = ["film"]
-date = "2017-02-02T23:00:48+02:00"
+date = "2017-01-25T14:45:28+02:00"
 orientation = "portrait"
-photo = "2017-02-02-trocadero"
+photo = "2017-01-25-pilier-sud"
 tags = ["paris","tour eiffel","france","ilford","delta 100","black & white"]
-title = "Trocadero"
+title = "Pilier sud"
 
 +++
