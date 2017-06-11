@@ -114,6 +114,8 @@ hr {
   display: block;
 }
 .summary {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
   break-inside: avoid;
   display: block;
   position: relative;
