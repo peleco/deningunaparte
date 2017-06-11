@@ -33,7 +33,8 @@ a:hover {
 }
 hr {
   display: block;
-  margin: 3.75rem 2.380952380952381%;
+  /*margin: 3.75rem 2.380952380952381%;*/
+  margin: 3.75rem 0;
   padding: 0;
   height: 2px;
   border-style: none;
@@ -173,8 +174,13 @@ hr {
   margin-right: 1em;
 }
 /* ——————————————————————— Taxonomy */
-.taxonomy {
+.taxonomies {
   padding: 0 2.380952380952381%;
+  margin: 0;
+}
+.taxonomy {
+  /*padding: 0 2.380952380952381%;*/
+  padding: 0;
   margin-bottom: 3.75rem;
 }
 .taxonomy h2 {
@@ -290,10 +296,11 @@ hr {
 
 /* ——————————————————————— Single */
 .single {
-  /*padding: 0 2.380952380952381%;*/
+  padding: 0 2.380952380952381%;
 }
 .single-text {
-  margin: 3rem 2.380952380952381%;
+  /*margin: 3rem 2.380952380952381%;*/
+  margin: 3rem 0;
 }
 .single time {
   margin: 0;
@@ -308,7 +315,7 @@ hr {
   line-height: 3rem;
 }
 .single-photo-container {
-  padding: 0 2.380952380952381%;
+  padding: 0;
   margin: 3.75rem 0 0;
 }
 .single-photo {
@@ -337,6 +344,23 @@ hr {
   .header {
     padding-left: 3.5714285714%;
   }
+
+  /*.single-text {
+    margin: 3rem 3.5714285714%;
+  }
+  .single-photo-container {
+    padding: 0 3.5714285714%;
+  }*/
+  .taxonomies {
+    padding: 0 3.5714285714%;
+  }
+  .single {
+    padding: 0 3.5714285714%;
+  }
+  .pagination {
+    padding: 0 3.5714285714%;
+  }
+
 }
 @media all and (max-width: 21.25em) { /* -340px */
   .grid {
@@ -348,5 +372,20 @@ hr {
   }
   .header {
     padding-left: 7.142857142857143%;
+  }
+  /*.single-text {
+    margin: 3rem 7.142857142857143%;
+  }
+  .single-photo-container {
+    padding: 0 7.142857142857143%;
+  }*/
+  .taxonomies {
+    padding: 0 7.142857142857143%;
+  }
+  .single {
+    padding: 0 7.142857142857143%;
+  }
+  .pagination {
+    padding: 0 7.142857142857143%;
   }
 }
