@@ -1,9 +1,9 @@
 +++
-categories = ["x","y"]
+categories = ["film","travel"]
 date = "2016-08-31T21:00:16+02:00"
-orientation = "portrait or landscape"
-photo = "2016-12-09-name"
-tags = ["x","y"]
-title = "2016 08 31 diablos de chuao 6"
+orientation = "portrait"
+photo = "2016-08-31-diablos-de-chuao-6"
+tags = ["venezuela","chuao","diablos","ilford","delta 100","black & white"]
+title = "Diablos de Chuao 6"
 
 +++
