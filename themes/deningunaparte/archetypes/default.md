@@ -1,6 +1,6 @@
 +++
 categories = ["x", "y"]
 tags = ["x", "y"]
-photo = "name-photo"
+photo = "2016-12-09-name"
 orientation = "portrait or landscape"
 +++
