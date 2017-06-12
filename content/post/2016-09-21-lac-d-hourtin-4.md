@@ -1,9 +1,9 @@
 +++
-categories = ["x","y"]
+categories = ["film","travel"]
 date = "2016-09-21T20:55:47+02:00"
-orientation = "portrait or landscape"
-photo = "2016-12-09-name"
-tags = ["x","y"]
-title = "2016 09 21 lac d hourtin 4"
+orientation = "portrait"
+photo = "2016-09-21-lac-d-hourtin-4"
+tags = ["france","gironde","kodak","portra 400"]
+title = "Lac d'Hourtin 4"
 
 +++
