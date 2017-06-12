@@ -3,10 +3,12 @@
         <h1 id="title">{{ .Title }}</h1>
         <div class="photo-grid">
           <div class="grid">
-            {{ range .Data.Pages }}
+            {{ $paginator := .Paginate (where .Data.Pages "Type" "post") 12 }}
+            {{ range .Paginator.Pages }}
               {{ .Render "summary"}}
             {{ end }}
           </div>
+          {{ partial "pagination.html" . }}
         </div>
         {{ partial "taxonomies-all.html" . }}
       </div>
