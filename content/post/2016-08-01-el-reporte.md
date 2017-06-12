@@ -1,9 +1,9 @@
 +++
-categories = ["x","y"]
+categories = ["film","travel"]
 date = "2016-08-01T21:07:11+02:00"
-orientation = "portrait or landscape"
-photo = "2016-12-09-name"
-tags = ["x","y"]
-title = "2016 08 01 el reporte"
+orientation = "landscape"
+photo = "22016-08-01-el-reporte"
+tags = ["choroní","venezuela","surf","caribe","black & white","ilford","hp5+"]
+title = "El reporte"
 
 +++
