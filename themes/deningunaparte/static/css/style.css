@@ -336,7 +336,10 @@ hr {
 .footer {
   padding: 0 2.380952380952381%;
 }
-
+.footer p {
+  margin: 0 0 1.875rem;
+  padding: 0;
+}
 
 
 /* ——————————————————————— Breakpoints */
