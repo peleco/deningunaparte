@@ -1,5 +1,5 @@
 +++
-categories = ["film","travel"]
+categories = ["film","turista"]
 date = "2016-08-06T21:06:14+02:00"
 orientation = "portrait"
 photo = "2016-08-06-la-invasion"
