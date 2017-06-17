@@ -332,14 +332,67 @@ hr {
 .landscape {
   max-width: 53.4375rem;
 }
-
+/* ——————————————————————— Footer */
 .footer {
   padding: 0 2.380952380952381%;
+  display: flex;
+}
+.copy, .nav {
+  width: 50%;
+}
+.nav {
+  text-align: right;
 }
 .footer p {
   margin: 0 0 1.875rem;
   padding: 0;
 }
+.footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer li a:link {
+  font-size: 1em;
+  font-weight: bold;
+}
+/* ——————————————————————— About */
+.about {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+.about h2 {
+  margin-top: 6rem;
+  font-size: 1.5rem;
+}
+.about a:link, .about a:visited {
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+.about a:link::before {
+  transition: transform .40s cubic-bezier(0.340, 0.010, 0.010, 0.995),
+              opacity .20s cubic-bezier(0.340, 0.010, 0.010, 0.995);
+  position: absolute;
+  padding: 0 .4rem;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: .625rem;
+  width: 100%;
+  background-color: #FFDE00;
+  mix-blend-mode: multiply;
+  opacity: 1;
+  transform: translateY(0em) scaleY(0) translateX(-.4rem);
+  transform-origin: bottom center;
+}
+.about a:hover::before {
+  opacity: 1;
+  transform: translateY(-.2em) scaleY(1) translateX(-.4rem);
+}
+
+
 
 
 /* ——————————————————————— Breakpoints */
