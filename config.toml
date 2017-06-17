@@ -5,6 +5,10 @@ theme = "deningunaparte"
 preserveTaxonomyNames = true
 enableEmoji = true
 
+[params]
+  description = "Photographies by Erik Zitzermann"
+  author = "Erik Zitzermann"
+
 [taxonomies]
 tag = "tags"
 category = "categories"
@@ -12,7 +16,5 @@ series = "series"
 
 [[menu.main]]
     name = "About"
-    #pre = "<i class='fa fa-heart'></i>"
-    #weight = -110
     identifier = "about"
     url = "/about/"
