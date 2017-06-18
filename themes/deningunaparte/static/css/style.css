@@ -440,6 +440,9 @@ hr {
   .pagination {
     padding: 0 3.5714285714%;
   }
+  .footer {
+    padding: 0 3.5714285714%;
+  }
 
 }
 @media all and (max-width: 21.25em) { /* -340px */
@@ -466,6 +469,9 @@ hr {
     padding: 0 7.142857142857143%;
   }
   .pagination {
+    padding: 0 7.142857142857143%;
+  }
+  .footer {
     padding: 0 7.142857142857143%;
   }
 }
