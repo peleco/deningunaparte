@@ -7,7 +7,7 @@ type = "about"
 
 Hello, my name is Erik Zitzermann, I'm a Venezuelan :venezuela: / French :fr: graphic designer based in France since 2012.
 
-De ninguna parte is a repository of some of my pictures since 2015. Almost all black & white photos are developed and scanned by myself. If you are interested in my work for commercial use, or just want to say hi, please don't hesitate to contact me. You can find me on [twiter](https://twitter.com/erikzitzermann), [instagram](https://www.instagram.com/peleco/) and [linkedIN](https://www.linkedin.com/in/ezitzermann/).
+De ninguna parte is a repository of some of my pictures since 2015. Almost all black & white photos are developed and scanned by myself. If you are interested in my work for commercial use, or just want to say hi, please don't hesitate to contact me. You can find me on [twiter](https://twitter.com/erikzitzermann), [instagram](https://www.instagram.com/peleco/) and [linkedIn](https://www.linkedin.com/in/ezitzermann/).
 
 Thanks for passing by.:v:
 

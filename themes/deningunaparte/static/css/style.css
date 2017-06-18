@@ -42,6 +42,7 @@ hr {
 }
 /* ——————————————————————— Estructura */
 .main {
+  position: relative;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -58,12 +59,14 @@ hr {
   /*column-rule: 1px solid #DEDEFF;*/
 }
 .grid {
+  position: relative;
   column-count: 3;
   -moz-column-count: 3;
   -webkit-column-count: 3;
   column-gap: 0;
   -moz-column-gap: 0;
   -webkit-column-gap: 0;
+  padding-bottom: 3rem;
 }
 .content h1 {
   padding: 0 2.380952380952381%;
@@ -125,6 +128,7 @@ hr {
   display: block;
   position: relative;
   padding: 7.142857142857143%;
+  /*overflow-y: visible;*/
 }
 .summary::before {
   transition: opacity .40s cubic-bezier(0.340, 0.010, 0.010, 0.995),
@@ -160,6 +164,7 @@ hr {
   right: 0;
   opacity: 0;
   transform: translateY(.2em);
+  margin: auto;
   /*transform: translateX(-2em);*/
 }
 .summary:hover .summary-text {
