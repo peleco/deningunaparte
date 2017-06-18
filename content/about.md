@@ -15,4 +15,5 @@ Thanks for passing by.:v:
 Colophon
 --
 
-De ninguna parte uses [Aperçu](https://www.colophon-foundry.org/typefaces/apercu/) as body and display text. This website is built with [Hugo](https://gohugo.io/) and the hosting is provided by [Netlify](https://www.netlify.com/). Thank you all. :clap:
+De ninguna parte is built with [Hugo](https://gohugo.io/) and the hosting is provided by [Netlify](https://www.netlify.com/). Thank you all. :clap:
+We use [Aperçu](https://www.colophon-foundry.org/typefaces/apercu/) as body and display text.
