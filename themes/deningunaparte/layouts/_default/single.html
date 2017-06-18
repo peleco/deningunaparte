@@ -20,8 +20,6 @@
          		alt=".Params.photo" />
          		{{ end }}
 
-            <!-- {{if .Prev}}{{.Prev.Permalink}}{{end}}
-            {{if .Next}}{{.Next.Permalink}}{{end}} -->
         </div>
         <div class="single-text">
           <time>{{ .Date.Format "02.01.2006" }}</time>
@@ -30,6 +28,7 @@
   					{{ .Content }}
   				</div>
         </div>
+        {{ partial "single-pagination.html" . }}
 			</article>
       <div class="taxonomies">
         <hr>

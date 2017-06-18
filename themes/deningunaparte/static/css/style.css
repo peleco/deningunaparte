@@ -301,10 +301,22 @@ hr {
 /* ——————————————————————— Single */
 .single {
   padding: 0 2.380952380952381%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 .single-text {
   /*margin: 3rem 2.380952380952381%;*/
   margin: 3rem 0;
+  width: 50%;
+}
+.single .pagination {
+  margin: 3rem 0;
+  width: 50%;
+  padding: 0;
+}
+.single .pagination-prev {
+  transform: translateX(2px);
 }
 .single time {
   margin: 0;
@@ -321,10 +333,14 @@ hr {
 .single-photo-container {
   padding: 0;
   margin: 3.75rem 0 0;
+  display: block;
+  position: relative;
+  width: 100%;
 }
 .single-photo {
   width: 100%;
   height: auto;
+  display: block;
 }
 .portrait {
   max-width: 35.625rem;
@@ -358,12 +374,14 @@ hr {
 }
 /* ——————————————————————— About */
 .about {
+  margin-top: 6rem;
   font-size: 1.5rem;
   line-height: 2.25rem;
   width: 87.5%;
 }
 .about h2 {
-  margin-top: 6rem;
+  margin: 6rem 0 0;
+  padding: 0;
   font-size: 1.5rem;
 }
 .about a:link, .about a:visited {
