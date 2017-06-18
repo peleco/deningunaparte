@@ -2,14 +2,6 @@
   <div class="content">
 			<article class="single">
         <div class="single-photo-container">
-            <!-- <img class="single-photo {{ .Params.orientation }}" src="{{ .Params.photo }}" alt=".Params.photo"> -->
-
-            <!-- <img class="single-photo {{ .Params.orientation }}" src="/photos/{{ .Params.photo }}-M.jpg"
-           srcset="/photos/{{ .Params.photo }}-L.jpg 1710w,
-                   /photos/{{ .Params.photo }}-M.jpg 855w,
-                   /photos/{{ .Params.photo }}-S.jpg 360w"
-           sizes="100vw"
-           alt=".Params.photo" /> -->
 
            {{ if in .Params.orientation "landscape" }}
          			<img class="single-photo {{ .Params.orientation }}" src="/photos/{{ .Params.photo }}-M.jpg"
@@ -28,8 +20,8 @@
          		alt=".Params.photo" />
          		{{ end }}
 
-            <!-- {{if .PrevInSection}}{{.PrevInSection.Permalink}}{{end}}
-            {{if .NextInSection}}{{.NextInSection.Permalink}}{{end}} -->
+            <!-- {{if .Prev}}{{.Prev.Permalink}}{{end}}
+            {{if .Next}}{{.Next.Permalink}}{{end}} -->
         </div>
         <div class="single-text">
           <time>{{ .Date.Format "02.01.2006" }}</time>
