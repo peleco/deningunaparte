@@ -12,11 +12,14 @@ googleAnalytics = "UA-76665409-1"
   author = "Erik Zitzermann"
 
 [taxonomies]
-tag = "tags"
-category = "categories"
-series = "series"
+  tag = "tags"
+  category = "categories"
+  series = "series"
 
 [[menu.main]]
-    name = "About"
-    identifier = "about"
-    url = "/about/"
+  name = "About"
+  identifier = "about"
+  url = "/about/"
+
+[blackfriday]
+  extensions = ["hardLineBreak"]

@@ -16,4 +16,4 @@ Colophon
 --
 
 De ninguna parte is built with [Hugo](https://gohugo.io/) and the hosting is provided by [Netlify](https://www.netlify.com/). Thank you all. :clap:
-We use [Aperçu](https://www.colophon-foundry.org/typefaces/apercu/) as body and display text.
+[Aperçu](https://www.colophon-foundry.org/typefaces/apercu/) is used as body and display text.
