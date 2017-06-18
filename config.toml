@@ -4,6 +4,8 @@ title = "de ninguna parte"
 theme = "deningunaparte"
 preserveTaxonomyNames = true
 enableEmoji = true
+googleAnalytics = "UA-76665409-1"
+
 
 [params]
   description = "Photographies by Erik Zitzermann"
