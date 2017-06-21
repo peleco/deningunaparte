@@ -1,6 +1,8 @@
 +++
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
+date = {{ .Date }}
 categories = ["x", "y"]
 tags = ["x", "y"]
-photo = "2016-12-09-name"
+photo = "{{ .Date }}-name"
 orientation = "portrait or landscape"
 +++
