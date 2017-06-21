@@ -6,7 +6,7 @@ preserveTaxonomyNames = true
 enableEmoji = true
 
 [params]
-  description = "Photographies by Erik Zitzermann"
+  description = "Photographs by Erik Zitzermann"
   author = "Erik Zitzermann"
 
 [taxonomies]
