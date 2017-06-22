@@ -131,8 +131,10 @@ hr {
   /*overflow-y: visible;*/
 }
 .summary::before {
-  transition: opacity .40s cubic-bezier(0.340, 0.010, 0.010, 0.995),
-              transform .20s cubic-bezier(0.340, 0.010, 0.010, 0.995) .10s;
+  /*transition: opacity .40s cubic-bezier(0.340, 0.010, 0.010, 0.995),
+              transform .20s cubic-bezier(0.340, 0.010, 0.010, 0.995) .10s;*/
+  transition: opacity .15s cubic-bezier(0.340, 0.010, 0.010, 0.995),
+              transform .30s cubic-bezier(0.340, 0.010, 0.010, 0.995);
   content: "";
   display: block;
   position: absolute;
