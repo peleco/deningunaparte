@@ -8,15 +8,16 @@
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 	{{ if .IsPage }}
-                <meta property="og:title" content="{{ .Title }}" />
-		<meta property="og:type" content="blog" />
-		<meta property="og:url" content="{{ .Permalink }}" />
-		<meta property="og:site_name" content="De ninguna parte" />
-		<meta property="og:image" content="https://www.deningunaparte.com/photos/{{ .Params.photo }}-L.jpg" />
-		<meta name="twitter:title" content="{{ .Title }}">
-		<meta name="twitter:image" content="https://www.deningunaparte.com/photos/{{ .Params.photo }}-L.jpg">
-		<meta name="twitter:site" content="@erikzitzermann">
-		<meta name="twitter:creator" content="@erikzitzermann">
+	<meta property="og:title" content="{{ .Title }}" />
+	<meta property="og:type" content="blog" />
+	<meta property="og:url" content="{{ .Permalink }}" />
+	<meta property="og:site_name" content="De ninguna parte" />
+	<meta property="og:image" content="https://www.deningunaparte.com/photos/{{ .Params.photo }}-L.jpg" />
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="{{ .Title }}">
+	<meta name="twitter:image" content="https://www.deningunaparte.com/photos/{{ .Params.photo }}-L.jpg">
+	<meta name="twitter:site" content="@erikzitzermann">
+	<meta name="twitter:creator" content="@erikzitzermann">
  	{{ end }}
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}fonts/stylesheet.css">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.css">
