@@ -9,7 +9,7 @@
                       /photos/{{ .Params.photo }}-M.jpg 855w,
                       /photos/{{ .Params.photo }}-S.jpg 360w"
               sizes="100vw"
-              alt=".Params.photo" />
+              alt="{{ .Params.photo }}" />
          		 {{ end }}
          		 {{ if in .Params.orientation "portrait" }}
          		 <img class="single-photo {{ .Params.orientation }}" src="/photos/{{ .Params.photo }}-M.jpg"
@@ -17,7 +17,7 @@
          						/photos/{{ .Params.photo }}-M.jpg 570w,
          						/photos/{{ .Params.photo }}-S.jpg 360w"
          		sizes="100vw"
-         		alt=".Params.photo" />
+         		alt="{{ .Params.photo }}" />
          		{{ end }}
 
         </div>
