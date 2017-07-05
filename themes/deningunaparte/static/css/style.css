@@ -261,10 +261,11 @@ hr {
   position: relative;
   display: block;
   border: solid 2px #000;
-  /*align-self: center;*/
+  align-self: center;
 }
 .pagination-next svg, .pagination-prev svg {
-  transform: scale(.8, .8);
+  /*transform: scale(.8, .8);*/
+  /*transform: translateY(-.05rem);*/
 }
 .pagination-next::before, .pagination-prev::before {
   transition: opacity .30s cubic-bezier(0.340, 0.010, 0.010, 0.995),
@@ -305,7 +306,7 @@ hr {
   transform: translate(0%,0%);
   transform-origin: center center;
   margin: 0;
-  padding: .5rem 0 0;
+  padding: .44rem 0 0;
 }
 
 /* ——————————————————————— Single */
