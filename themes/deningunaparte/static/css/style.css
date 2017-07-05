@@ -263,6 +263,9 @@ hr {
   border: solid 2px #000;
   /*align-self: center;*/
 }
+.pagination-next svg, .pagination-prev svg {
+  transform: scale(.8, .8);
+}
 .pagination-next::before, .pagination-prev::before {
   transition: opacity .30s cubic-bezier(0.340, 0.010, 0.010, 0.995),
               transform .15s cubic-bezier(0.340, 0.010, 0.010, 0.995);
