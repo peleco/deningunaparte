@@ -2,7 +2,7 @@
 title = "Pont Notre-Dame"
 date = "2018-12-08"
 categories = ["film"]
-tags = ["paris","400tx","la seine"]
+tags = ["black & white","paris","france","la seine","kodak","400tx"]
 photo = "2018-12-08-pont-notre-dame"
 orientation = "portrait"
 +++
