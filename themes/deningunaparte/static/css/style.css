@@ -70,7 +70,7 @@ hr {
 }
 .content h1 {
   padding: 0 2.380952380952381%;
-  margin: 3.75rem 0;
+  margin: 5rem 0 1em;
   font-size: 2.75rem;
 }
 /* ——————————————————————— Header */
@@ -206,8 +206,9 @@ hr {
 .taxonomy li {
   position: relative;
   font-size: 1.5rem;
+  /* font-size: 1em; */
   line-height: 3.25rem;
-  font-weight: bold;
+  font-weight: regular;
   display: inline-block;
   margin-right: 1em;
   /*background: blue;*/
@@ -288,6 +289,7 @@ hr {
   transform: translate(-0.75rem, -0.75rem) scaleX(1);
 }
 .pagination-data {
+  /* font-size: 1.5rem; */
   position: relative;
   display: block;
   border: solid 2px #000;

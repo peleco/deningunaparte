@@ -32,16 +32,16 @@
 			</article>
       <div class="taxonomies">
         <hr>
-        <div class="taxonomy">
+        <!-- <div class="taxonomy">
           <h2>Categories</h2>
           <ul>
             {{ range .Params.categories }}
             <li><a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
             {{ end }}
           </ul>
-      </div>
+      </div> -->
       <div class="taxonomy">
-        <h2>Tags</h2>
+        <!-- <h2>Tags</h2> -->
         <ul>
           {{ range .Params.tags }}
           <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
