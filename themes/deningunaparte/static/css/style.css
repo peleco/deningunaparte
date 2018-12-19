@@ -321,11 +321,11 @@ hr {
 }
 .single-text {
   /*margin: 3rem 2.380952380952381%;*/
-  margin: 3rem 0;
+  margin: 3rem 0 0;
   width: 50%;
 }
 .single .pagination {
-  margin: 3rem 0;
+  margin: 3rem 0 0;
   width: 50%;
   padding: 0;
 }
