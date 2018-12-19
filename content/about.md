@@ -15,5 +15,5 @@ Thanks for passing by :v:.
 Colophon
 --
 
-De ninguna parte is built with [Hugo](https://gohugo.io/) and the hosting is provided by [Netlify](https://www.netlify.com/), thank you!
+De ninguna parte is built with [Hugo](https://gohugo.io/) and the hosting is provided by [Netlify](https://www.netlify.com/).
 [Aperçu](https://www.colophon-foundry.org/typefaces/apercu/) is used as body and display text.
