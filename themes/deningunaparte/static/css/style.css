@@ -173,6 +173,7 @@ hr {
   opacity: 1;
   /*transform: translateX(0);*/
   transform: translateY(0);
+  text-align: right;
 }
 .summary h1 {
   padding: 0;
@@ -449,6 +450,17 @@ hr {
   }
   .single {
     padding: 0 3.5714285714%;
+  }
+  .single-text {
+    /*margin: 3rem 2.380952380952381%;*/
+    margin: 1rem 0 1rem;
+    width: 100%;
+  }
+  .single .pagination {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    justify-content: flex-start;
   }
   .pagination {
     padding: 0 3.5714285714%;
