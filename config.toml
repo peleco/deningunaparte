@@ -11,8 +11,8 @@ enableEmoji = true
 
 [taxonomies]
   tag = "tags"
-  category = "categories"
-  series = "series"
+  # category = "categories"
+  # series = "series"
 
 [[menu.main]]
   name = "About"
