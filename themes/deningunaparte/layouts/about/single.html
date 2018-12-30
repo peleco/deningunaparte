@@ -1,6 +1,28 @@
 {{ partial "header.html" . }}
   <div class="content">
       <article class="single">
+
+        <div class="single-photo-container">
+
+           {{ if in .Params.orientation "landscape" }}
+         			<img class="single-photo {{ .Params.orientation }}" src="/photos/{{ .Params.photo }}-M.jpg"
+              srcset="/photos/{{ .Params.photo }}-L.jpg 1710w,
+                      /photos/{{ .Params.photo }}-M.jpg 855w,
+                      /photos/{{ .Params.photo }}-S.jpg 360w"
+              sizes="100vw"
+              alt="{{ .Params.photo }}" />
+         		 {{ end }}
+         		 {{ if in .Params.orientation "portrait" }}
+         		 <img class="single-photo {{ .Params.orientation }}" src="/photos/{{ .Params.photo }}-M.jpg"
+         		srcset="/photos/{{ .Params.photo }}-L.jpg 1140w,
+         						/photos/{{ .Params.photo }}-M.jpg 570w,
+         						/photos/{{ .Params.photo }}-S.jpg 360w"
+         		sizes="100vw"
+         		alt="{{ .Params.photo }}" />
+         		{{ end }}
+
+        </div>
+
         <div class="about">
           <h1>{{ .Title }}</h1>
   				<div>

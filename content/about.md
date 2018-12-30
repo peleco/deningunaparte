@@ -1,7 +1,7 @@
 +++
 date = "2017-06-17T14:24:17+02:00"
 orientation = "landscape"
-photo = "portrait-1"
+photo = "2018-12-30-autoretrato"
 type = "about"
 +++
 
