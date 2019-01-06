@@ -1,5 +1,5 @@
 +++
-title = "Bajo la sombra del Mont-Saint-Michel"
+title = "Bajo la sombra"
 date = "2019-01-06"
 categories = ["film"]
 tags = ["black & white","normandie","france","kodak","t-max 100","film"]
