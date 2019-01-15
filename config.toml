@@ -1,6 +1,6 @@
 baseURL = "https://www.deningunaparte.com/"
 languageCode = "en-us"
-title = "de ninguna parte"
+title = "de ninguna parte — photographs by Erik Zitzermann"
 theme = "deningunaparte"
 preserveTaxonomyNames = true
 enableEmoji = true
