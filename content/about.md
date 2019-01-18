@@ -3,6 +3,7 @@ date = "2017-06-17T14:24:17+02:00"
 orientation = "landscape"
 photo = "2018-12-30-autoretrato"
 type = "about"
+title = "About de ninguna parte"
 +++
 
 Hello, my name is [Erik Zitzermann](https://erikzitzermann.com/), I'm a graphic designer based in France.
