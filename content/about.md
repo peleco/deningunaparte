@@ -6,7 +6,7 @@ type = "about"
 title = "About de ninguna parte"
 +++
 
-Hello, my name is [Erik Zitzermann](https://erikzitzermann.com/), I'm a graphic designer based in France.
+Hello, my name is [Erik Zitzermann](https://erikzitzermann.com/), I'm a graphic designer based in Costa Rica.
 
 De ninguna parte is a repository of some of my pictures since 2015. Almost all black & white photos are developed and scanned by myself. If you are interested in my work for commercial use, or just want to say hi, please don't hesitate to contact me, you can find me on [twitter](https://twitter.com/erikzitzermann), [instagram](https://www.instagram.com/peleco/) and [linkedIn](https://www.linkedin.com/in/ezitzermann/).
 
