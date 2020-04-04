@@ -24,8 +24,7 @@
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}fonts/stylesheet.css">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.css">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
-	{{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
-	{{ .Hugo.Generator }}
+	{{ hugo.Generator }}
 </head>
 <body>
 	<div class="main">
