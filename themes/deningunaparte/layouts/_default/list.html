@@ -3,7 +3,7 @@
         <h1 id="title">{{ .Title }}<hr></h1>
         <div class="photo-grid">
           <div class="grid">
-            {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") 12 }}
+            {{ $paginator := .Paginate (where .Data.Pages "Type" "post") 12 }}
             {{ range .Paginator.Pages }}
               {{ .Render "summary"}}
             {{ end }}
