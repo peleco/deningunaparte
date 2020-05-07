@@ -7,7 +7,6 @@
 	<title>{{ .Title }} — photographs by Erik Zitzermann</title>
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-	{{ if .IsPage }}
 
 	<link rel="apple-touch-icon" sizes="57x57" href="{{ .Site.BaseURL }}icons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="{{ .Site.BaseURL }}icons/apple-icon-60x60.png">
@@ -26,6 +25,8 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="{{ .Site.BaseURL }}icons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+
+	{{ if .IsPage }}
 
 	<meta property="og:title" content="{{ .Title }}" />
 	<meta property="og:type" content="blog" />
